@@ -1,6 +1,6 @@
 const express = require("express")
 const { addComment, getComments } = require("../controllers/commentController")
-const protect = require("../middleware/authMiddleWare")
+const protect = require("../middleware/authMiddleWare.js")
 
 const router = express.Router()
 

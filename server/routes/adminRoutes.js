@@ -1,6 +1,6 @@
 const express = require("express")
 const { getAllUsers, addEvent, updateEvent, updateProductListing, getAllComments, updateUser } = require("../controllers/adminController")
-const adminProtect = require("../middleware/adminMiddleware")
+const adminProtect = require("../middleware/adminMiddleware.js")
 
 const router = express.Router()
 
